@@ -4,10 +4,10 @@ public class AdvancedNamingConvention {
 
 
     void callToFriend() {
-        //some code
+        System.out.println("Call to friend");
     }
 
     void callByNumber(int number) {
-        //some code
+        System.out.println("Call by number "+number);
     }
 }
