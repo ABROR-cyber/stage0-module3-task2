@@ -28,7 +28,6 @@ class NamingConventionTest {
                                 line.contains("variableSeven") ||
                                 line.contains("variableEight"))
                 .collect(Collectors.toList());
-
         assertEquals(9, result.size());
     }
 }
