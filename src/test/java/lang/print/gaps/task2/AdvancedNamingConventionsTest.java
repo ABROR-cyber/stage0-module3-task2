@@ -24,7 +24,6 @@ class AdvancedNamingConventionsTest {
                                 line.contains("void callToFriend") ||
                                 line.contains("void callByNumber(int number)"))
                 .collect(Collectors.toList());
-
         assertEquals(5, result.size());
     }
 
